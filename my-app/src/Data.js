@@ -1,5 +1,9 @@
 const NavData = [
     {
+      name: "Apple Logo",
+      img: "http://www.apple.com/ac/globalnav/2.0/en_US/images/ac-globalnav/globalnav/apple/image_large.svg"
+    },
+    {
       name: "Mac",
       subLinks: [
         {
@@ -20,7 +24,7 @@ const NavData = [
         {
           name: "iMac Pro",
           img:
-            "https://www.apple.com/v/mac/home/ab/images/familybrowser/imac_pro_dark_large.svg"
+            "https://www.apple.com/v/mac/home/aj/images/familybrowser/imac_pro__eer4bfwlutme_large.svg"
         },
         {
           name: "Mac Pro",
@@ -73,7 +77,7 @@ const NavData = [
         },
         {
             name: "iPad mini",
-            img: "https://www.apple/com/v/ipad/home/au/images/chapternav/ipadmini_light__bxpulkud30s2_large.svg"
+            img: "https://www.apple.com/v/ipad/home/au/images/chapternav/ipadmini_light__bxpulkud30s2_large.svg"
         },
         {
             name: "Compare",
@@ -124,7 +128,7 @@ const NavData = [
         {
           name: "iPhone 8",
           img:
-            "https://www.apple.com/url/v/iphone/home/ac/images/chapternav/iphone_8_dark__d4f1b8j5cwia_large.svg"
+            "https://www.apple.com/v/iphone/home/ac/images/chapternav/iphone_8_dark__d4f1b8j5cwia_large.svg"
         },
         {
           name: "Compare",
