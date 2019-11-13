@@ -287,10 +287,12 @@ const NavData = [
         name: "Support"
     },
     {
-        name: "Search"
+        name: "Search",
+        img: "https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/search/image_large.svg"
     },
     {
-        name: "Shopping Cart"
+        name: "Shopping Cart",
+        img: "https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/bag/image_large.svg"
     }
   ];
 

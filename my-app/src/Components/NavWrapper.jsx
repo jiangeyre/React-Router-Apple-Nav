@@ -10,8 +10,13 @@ const NavWrapper = (props) => {
         <div className="navBar">
             <nav className="topNav">
                 {navLinks.map((item) => {
-                    return <NavLink to={item.name} key={item.name} className="topNavLinks">
+                    if(item.name === "Apple Logo" || item.name === "Search" || item.name === "Shopping Cart"){
+                        return <NavLink to={item.name} key={item.name} className="topNavLinks">
+                        <img src={item.img} alt="apple logo"/></NavLink>
+                    }else{
+                        return <NavLink to={item.name} key={item.name} className="topNavLinks">
                         {item.name}</NavLink>
+                    }
                 })}
             </nav>
                 {navLinks.map((item) => {
